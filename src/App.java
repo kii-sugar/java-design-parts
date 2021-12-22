@@ -1,8 +1,13 @@
-import Iterator.IteratorMain;
+import Adapter.AdapterMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
-		IteratorMain iterator = new IteratorMain();
-		iterator.RuniteratorSample();
+
+		// Iteratorパターン実行
+		// new IteratorMain().run();
+
+		// Adapterパターン実行
+		new AdapterMain().run();
+
 	}
 }

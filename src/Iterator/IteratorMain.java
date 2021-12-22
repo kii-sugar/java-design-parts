@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 public class IteratorMain {
 
-  public void RuniteratorSample() {
+  public void run() {
 
     BookShelf bookShelf = new BookShelf();
     bookShelf.appendBook(new Book("リトルマーメイド"));

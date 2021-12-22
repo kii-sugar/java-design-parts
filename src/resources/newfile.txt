@@ -1,0 +1,6 @@
+#comment
+#Wed Dec 22 17:21:59 GMT+09:00 2021
+whith=1024
+depth=32
+width=640
+height=512
