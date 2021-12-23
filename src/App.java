@@ -1,4 +1,4 @@
-import Adapter.AdapterMain;
+import TemplateMethod.TemplateMethodMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -7,7 +7,9 @@ public class App {
 		// new IteratorMain().run();
 
 		// Adapterパターン実行
-		new AdapterMain().run();
+		// new AdapterMain().run();
 
+		// TemplateMethodパターン実行
+		new TemplateMethodMain().run();
 	}
 }
