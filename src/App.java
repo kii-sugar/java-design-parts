@@ -1,4 +1,4 @@
-import TemplateMethod.TemplateMethodMain;
+import FactoryMethod.FactoryMethodMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -10,6 +10,9 @@ public class App {
 		// new AdapterMain().run();
 
 		// TemplateMethodパターン実行
-		new TemplateMethodMain().run();
+		// new TemplateMethodMain().run();
+
+		// FactoryMethodパターン実行
+		new FactoryMethodMain().run();
 	}
 }
