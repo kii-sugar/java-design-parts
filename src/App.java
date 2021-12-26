@@ -1,4 +1,4 @@
-import FactoryMethod.FactoryMethodMain;
+import Singleton.SingletonMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -13,6 +13,10 @@ public class App {
 		// new TemplateMethodMain().run();
 
 		// FactoryMethodパターン実行
-		new FactoryMethodMain().run(); 
+		// new FactoryMethodMain().run(); 
+
+		// Singletonパターン実行
+		new SingletonMain().run();
 	}
 }
+
