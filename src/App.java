@@ -13,6 +13,6 @@ public class App {
 		// new TemplateMethodMain().run();
 
 		// FactoryMethodパターン実行
-		new FactoryMethodMain().run();
+		new FactoryMethodMain().run(); 
 	}
 }
