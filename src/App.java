@@ -1,4 +1,4 @@
-import Singleton.SingletonMain;
+import Prototype.PrototypeMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -16,7 +16,10 @@ public class App {
 		// new FactoryMethodMain().run(); 
 
 		// Singletonパターン実行
-		new SingletonMain().run();
+		// new SingletonMain().run();
+
+		// Prototypeパターン実行
+		new PrototypeMain().run();
 	}
 }
 
