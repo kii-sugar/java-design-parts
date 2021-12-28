@@ -1,4 +1,4 @@
-import Prototype.PrototypeMain;
+import Builder.BuilderMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -19,7 +19,10 @@ public class App {
 		// new SingletonMain().run();
 
 		// Prototypeパターン実行
-		new PrototypeMain().run();
+		// new PrototypeMain().run();
+
+		// Buidlerパターン実行
+		new BuilderMain().runFrame();
 	}
 }
 
