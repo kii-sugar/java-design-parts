@@ -1,4 +1,4 @@
-import Builder.BuilderMain;
+import AbstractFactory.AbstractFactoryMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -22,7 +22,10 @@ public class App {
 		// new PrototypeMain().run();
 
 		// Buidlerパターン実行
-		new BuilderMain().runFrame();
+		// new BuilderMain().runFrame();
+
+		// AbstractFactoryパターン実行
+		AbstractFactoryMain.run(args);
 	}
 }
 
