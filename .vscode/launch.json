@@ -6,7 +6,7 @@
   "configurations": [
     {
       "type": "java",
-      "args": ["text"],
+      "args": ["list.html", "AbstractFactory.listfactory.ListFactory"],
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"

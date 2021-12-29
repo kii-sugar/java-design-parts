@@ -12,12 +12,15 @@ import AbstractFactory.factory.Tray;
 public class AbstractFactoryMain {
   public static void run(String[] args) {
     if (args.length !=2) {
+      System.out.println(args[0]);
       usage();
-    }
+    };
 
     String filename = args[0];
     String classname = args[1];
 
+    System.out.println(filename);
+    System.out.println(classname);
     // classnameの工場を作る。以降、factoryを使用して部品を生成する
     Factory factory = Factory.getFactory(classname); // staticで定義しているから呼べる
 
