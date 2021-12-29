@@ -7,7 +7,7 @@ import java.util.List;
 // 複数のLinkやTrayをあつめてひとまとまりにしたもの
 // これも抽象クラス
 public abstract class Tray extends Item {
-  protected List<Item> tray = new ArrayList<>();
+  private List<Item> tray = new ArrayList<>();
 
   // 子クラスでItemの実装を任せることによりここで実装しなくてよくなる
   public Tray(String caption) {
@@ -16,5 +16,9 @@ public abstract class Tray extends Item {
 
   public void add(Item item) {
     tray.add(item);
+  }
+
+  public List<Item> getTray () {
+    return tray;
   }
 }

@@ -64,4 +64,18 @@ public class AbstractFactoryMain {
     System.out.println("Example 2: java Main div.html divfactory.DivFactory");
     System.exit(0);
   }
+
+  public static void runYahoo(String[] args) {
+    if (args.length !=2) {
+      System.out.println(args[0]);
+      usage();
+    };
+    String filename = args[0];
+    String classname = args[1];
+    Factory factory = Factory.getFactory(classname);
+
+    Page page = factory.createYahooPage();
+
+    page.output(filename);
+  }
 }

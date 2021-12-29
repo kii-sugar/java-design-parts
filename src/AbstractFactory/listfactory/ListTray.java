@@ -16,7 +16,7 @@ public class ListTray extends Tray {
     sb.append(caption);
     sb.append("\n<ul>\n");
     // ここでItemのサブクラスを特定してはいけない。スーパークラスを指定できることがオブジェクト指向の良さ
-    for(Item item: tray) {
+    for(Item item: super.getTray()) {
       sb.append(item.makeHTML());
     }
     sb.append("</ul>\n");

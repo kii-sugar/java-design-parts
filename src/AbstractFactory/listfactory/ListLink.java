@@ -4,6 +4,7 @@ import AbstractFactory.factory.Link;
 
 public class ListLink extends Link {
 
+  // Javaではコンストラクタは継承されないため、書く必要がある
   public ListLink(String caption, String url) {
     super(caption, url);
     // captionはItemクラスのプロパティ、urlはListクラスのプロパティ

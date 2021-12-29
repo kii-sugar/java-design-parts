@@ -5,6 +5,7 @@ package AbstractFactory.factory;
 public abstract class Link extends Item {
   protected String url;
   
+  // コンストラクタは継承されないため、サブクラスでも定義する必要がある
   public Link(String caption, String url) {
     super(caption);
     this.url = url;

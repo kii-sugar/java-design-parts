@@ -25,7 +25,7 @@ public class App {
 		// new BuilderMain().runFrame();
 
 		// AbstractFactoryパターン実行
-		AbstractFactoryMain.run(args);
+		AbstractFactoryMain.runYahoo(args);
 	}
 }
 
