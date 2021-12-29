@@ -19,8 +19,6 @@ public class AbstractFactoryMain {
     String filename = args[0];
     String classname = args[1];
 
-    System.out.println(filename);
-    System.out.println(classname);
     // classnameの工場を作る。以降、factoryを使用して部品を生成する
     Factory factory = Factory.getFactory(classname); // staticで定義しているから呼べる
 
@@ -41,6 +39,16 @@ public class AbstractFactoryMain {
     Tray newsTray = factory.createtTray("News Site");
     newsTray.add(news1);
     newsTray.add(news2);
+
+    //　TrayもItemなので、TrayにTrayをaddすることも可能
+    Link a1 = factory.createLink("item1", "https://item1");
+    Link a2 = factory.createLink("item2", "https://item2");
+    Link a3 = factory.createLink("item3", "https://item3");
+    Tray aTray = factory.createtTray("aTray");
+    aTray.add(a1);
+    aTray.add(a2);
+    aTray.add(a3);
+    newsTray.add(aTray);
 
     // Page
     Page page = factory.createPage("Blog and News Page", "Naho Kizawa");
