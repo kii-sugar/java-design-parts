@@ -1,4 +1,4 @@
-import AbstractFactory.AbstractFactoryMain;
+import Bridge.BridgeMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -25,7 +25,10 @@ public class App {
 		// new BuilderMain().runFrame();
 
 		// AbstractFactoryパターン実行
-		AbstractFactoryMain.runYahoo(args);
+		// AbstractFactoryMain.runYahoo(args);
+
+		// Bridgeパターン実行
+		new BridgeMain().run();
 	}
 }
 
