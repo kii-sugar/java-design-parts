@@ -1,4 +1,5 @@
 import Bridge.BridgeMain;
+import Strategy.StrategyMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -28,7 +29,10 @@ public class App {
 		// AbstractFactoryMain.runYahoo(args);
 
 		// Bridgeパターン実行
-		new BridgeMain().run();
+		// new BridgeMain().run();
+
+		// Strategyパターン実行
+		new StrategyMain().run(args);
 	}
 }
 

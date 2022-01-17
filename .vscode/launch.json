@@ -6,7 +6,7 @@
   "configurations": [
     {
       "type": "java",
-      "args": ["yahoo.html", "AbstractFactory.divfactory.DivFactory"],
+      "args": [2112, 21212],
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"
