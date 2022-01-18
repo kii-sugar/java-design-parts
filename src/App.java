@@ -1,5 +1,4 @@
-import Bridge.BridgeMain;
-import Strategy.StrategyMain;
+import Composite.CompositeMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -32,7 +31,10 @@ public class App {
 		// new BridgeMain().run();
 
 		// Strategyパターン実行
-		new StrategyMain().run(args);
+		// new StrategyMain().run(args);
+
+		// Compositeパターン子実行
+		new CompositeMain().run();
 	}
 }
 
