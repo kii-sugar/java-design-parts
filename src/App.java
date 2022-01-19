@@ -1,4 +1,4 @@
-import Composite.CompositeMain;
+import Decorator.DecoraterMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -33,8 +33,11 @@ public class App {
 		// Strategyパターン実行
 		// new StrategyMain().run(args);
 
-		// Compositeパターン子実行
-		new CompositeMain().run();
+		// Compositeパターン実行
+		// new CompositeMain().run();
+
+		// Decoratorパターン実行
+		new DecoraterMain().run();
 	}
 }
 
