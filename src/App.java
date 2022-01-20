@@ -1,4 +1,4 @@
-import Decorator.DecoraterMain;
+import Visitor.VisitorMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -37,7 +37,10 @@ public class App {
 		// new CompositeMain().run();
 
 		// Decoratorパターン実行
-		new DecoraterMain().run();
+		// new DecoraterMain().run();
+		
+		// Visitorパターン実行
+		new VisitorMain().run();
 	}
 }
 
