@@ -1,4 +1,4 @@
-import Visitor.VisitorMain;
+import ChainOfResponsibility.ChainOfResponsibilityMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -40,7 +40,10 @@ public class App {
 		// new DecoraterMain().run();
 		
 		// Visitorパターン実行
-		new VisitorMain().run();
+		// new VisitorMain().run();
+
+		// Chain of Responsibilityパターン実行
+		new ChainOfResponsibilityMain().run();
 	}
 }
 
