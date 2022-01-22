@@ -1,0 +1,4 @@
+hyuki@exmpla.com = Hiroshi Yuki
+naho@gmail.com = Naho Kizawa
+tomura@yaho.co.jp = tomura
+mamoru@ezweb.ne.jp = Mamoru Takahashi

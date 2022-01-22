@@ -1,4 +1,4 @@
-import ChainOfResponsibility.ChainOfResponsibilityMain;
+import Facade.FacadeMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -43,7 +43,10 @@ public class App {
 		// new VisitorMain().run();
 
 		// Chain of Responsibilityパターン実行
-		new ChainOfResponsibilityMain().run();
+		// new ChainOfResponsibilityMain().run();
+
+		// Facadeパターン実行
+		new FacadeMain().run();
 	}
 }
 
