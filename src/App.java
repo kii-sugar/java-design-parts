@@ -1,4 +1,4 @@
-import Facade.FacadeMain;
+import Mediator.MediatorMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -46,7 +46,10 @@ public class App {
 		// new ChainOfResponsibilityMain().run();
 
 		// Facadeパターン実行
-		new FacadeMain().run();
+		// new FacadeMain().run();
+
+		// Mediatorパターン実行
+		new MediatorMain().run();
 	}
 }
 
