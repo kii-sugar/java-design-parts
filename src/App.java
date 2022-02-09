@@ -1,4 +1,4 @@
-import Mediator.MediatorMain;
+import Observer.ObserverMain;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -49,7 +49,10 @@ public class App {
 		// new FacadeMain().run();
 
 		// Mediatorパターン実行
-		new MediatorMain().run();
+		// new MediatorMain().run();
+
+		// Observerパターン
+		new ObserverMain().run();
 	}
 }
 
